@@ -14,19 +14,12 @@ M.plugins = {
     status = {
         colorizer = true
     },
-
-    options = {
-        lspconfig = {
-           setup_lspconf = "custom.plugins.lspconfig",
-        },
-    },
-
     user = userPlugins
 }
 
 M.ui = {
     theme_toggle = { "gruvbox", "onedark" },
-    theme = "gruvbox"
+    theme = "onedark"
 }
 
 return M
